@@ -31,3 +31,18 @@ useradd -g artists fox
 [root@192 home]# id fox
 用户id=1005(fox) 组id=1006(artists) 组=1006(artists)
 ```
+
+```
+[fox@192 ~]$ touch apple2
+-rw-r--r--. 1 fox  artists    0  6月  1 16:18 apple2
+```
+
+修改文件所在组
+```
+[root@192 ~]# chgrp fruit orange
+
+```
+
+改变用户所在组
+usermod -g 新组名 用户名
+usermod -d 目录名 用户名 改变该用户登录的初始目录。### 用户需要有进入到新目录的权限 ###
