@@ -23,7 +23,6 @@ chown tom apple
 ```
 
 创建组 用户
-```
 groupadd artists
 useradd -g artists fox
 ```
