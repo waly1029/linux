@@ -1,5 +1,5 @@
 # Group
-`
+```
 [root@192 home]# ls -lah  
 总用量 5.8M  
 drwxr-xr-x.  6 root root 4.0K  6月  1 15:47 .  
@@ -13,4 +13,4 @@ drwx------.  4 jack jack 4.0K  5月 31 23:37 jack
 -rw-r--r--.  1 root root  479  6月  1 15:44 pc.tar.gz  
 drwx------. 14 tom  tom  4.0K  6月  1 15:16 tom  
 drwx------.  3 zwj  gb   4.0K  5月 31 23:45 zwj  
-`
+```
