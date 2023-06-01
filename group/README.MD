@@ -1,4 +1,6 @@
 # Group
+
+示例:
 ```
 [root@192 home]# ls -lah  
 总用量 5.8M  
@@ -13,4 +15,20 @@ drwx------.  4 jack jack 4.0K  5月 31 23:37 jack
 -rw-r--r--.  1 root root  479  6月  1 15:44 pc.tar.gz  
 drwx------. 14 tom  tom  4.0K  6月  1 15:16 tom  
 drwx------.  3 zwj  gb   4.0K  5月 31 23:45 zwj  
+```
+
+改变文件或者目录所有者
+```
+chown tom apple
+```
+
+创建组 用户
+```
+groupadd artists
+useradd -g artists fox
+```
+[root@192 home]# groupadd artists
+[root@192 home]# useradd -g artists fox
+[root@192 home]# id fox
+用户id=1005(fox) 组id=1006(artists) 组=1006(artists)
 ```
