@@ -36,7 +36,7 @@ vmenet1  :  192.168.89.1
 
   VMware Fusion->设置->网络
 
-  [!vm](./vmsetting.png)
+  ![vm](./vmsetting.png)
 
 步骤c:
 
