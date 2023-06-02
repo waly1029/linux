@@ -56,3 +56,33 @@ vmenet1  :  192.168.89.1
 
   DNS IP 母机中查看的DNS           192.168.1.1
 
+
+# 修改hostname
+
+## /etc/hostname
+
+
+# 修改对应关系
+
+## /etc/hosts
+
+在本机的hosts中增加需要ping的机器的名字和正确IP的对应关系!!!
+
+# hosts
+
+一个文本文件，用来记录IP和hostname(主机名)的映射关系
+
+# DNS
+
+1. DNS，就是Domain Name System的缩写，域名系统
+
+2. 是互联网上作为域名和IP地址相互映射的一个分布数据库
+![dns](./dns.png)
+
+
+
+
+
+
+
+
