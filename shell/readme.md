@@ -451,7 +451,7 @@ getSum $n1 $n2
 ```
 
 ## 综合案例
-```
+```sh
 #!/bin/bash
 # 备份目录
 BACKUP=/data/backup/db
